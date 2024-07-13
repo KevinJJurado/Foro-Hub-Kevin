@@ -120,11 +120,23 @@ Cuerpo de la Solicitud
 
 # Capturas de Pantalla
 
-![Menu litealura](https://github.com/KevinJJurado/desafioLiteraturaSpring/assets/128235203/c48d070e-aef3-4eea-b56c-35e17850e297)
+![User login](https://github.com/user-attachments/assets/418c3606-e9eb-4ce4-a136-fd9eb8051adb)
+
+![Create](https://github.com/user-attachments/assets/abcae2c5-673b-4ba0-a0d8-75ceaabbd1cf)
+
+![Get all](https://github.com/user-attachments/assets/4fb352d8-9b0d-4a78-a637-b0b867c508cd)
+
+![GetOne](https://github.com/user-attachments/assets/9ee06b6a-e02d-47c6-9670-63ae0b1cd041)
+
+![Update](https://github.com/user-attachments/assets/81611037-3849-4506-ad7c-d75514732e4b)
+
+![Delete](https://github.com/user-attachments/assets/cd38f53f-1d49-4870-a5e6-5ab7ba7e2831)
+
+
 
 
 # Video Demostrativo
-![videoConversor](https://github.com/KevinJJurado/desafioLiteraturaSpring/assets/128235203/abc41534-8a09-460a-99f3-1b860b681778)
+![Video-funcionamiento](https://github.com/user-attachments/assets/912501b2-3c29-4c53-93a5-4de1ae9b2781)
 
 
 
