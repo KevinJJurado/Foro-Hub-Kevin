@@ -4,5 +4,6 @@ CREATE TABLE topicos (
     mensaje VARCHAR(100) NOT NULL,
     autor VARCHAR(100) NOT NULL,
     curso VARCHAR(100) NOT NULL,
+    activo tinyint DEFAULT 1,
     PRIMARY KEY (id)
 )
