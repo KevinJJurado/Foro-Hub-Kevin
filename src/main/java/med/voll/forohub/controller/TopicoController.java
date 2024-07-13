@@ -32,7 +32,7 @@ public class TopicoController {
 
     @GetMapping
     public ResponseEntity<Page<DatosListadoTopicos>> listarTopicos(@PageableDefault(page = 0, size = 10) Pageable pagination) {
-        return ResponseEntity.ok(topicoRepository.findAll(pagination).map(DatosListadoTopicos::new));
+        return ResponseEntity.ok(topicoRepository.findByActivoTrue(pagination).map(DatosListadoTopicos::new));
     }
 
     @PutMapping
@@ -48,7 +48,7 @@ public class TopicoController {
     @Transactional
     public ResponseEntity borrarTopico(@PathVariable Long id) {
         Topico topico = topicoRepository.getReferenceById(id);
-
+        topico.desactivarTopico();
         topicoRepository.delete(topico);
         return ResponseEntity.noContent().build();
     }
